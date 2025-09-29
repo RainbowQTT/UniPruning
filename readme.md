@@ -14,7 +14,7 @@ bash final_unstructured.sh # unstructured pruning
 ## 3. searching & extract mask 
 ```
 python main.py # for searching gamma  
-extract_mask_mixed.py # for extract mask using gamma  
+python extract_mask_mixed.py # for extract mask using gamma  
 ```
 
 ## 4. evaluate ppl

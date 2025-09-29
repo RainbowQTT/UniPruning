@@ -18,5 +18,6 @@ python extract_mask_mixed.py # for extract mask using gamma
 ```
 
 ## 4. evaluate ppl
-ppl.py # for evaluate ppl results
-
+```
+python ppl.py # for evaluate ppl results
+```

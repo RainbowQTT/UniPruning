@@ -12,8 +12,8 @@ bash train_24_final.sh # 2:4 pruning
 bash final_unstructured.sh # unstructured pruning
 ```
 ## 3. extract mask
-main.py # for searching gamma
-extract_mask_mixed.py # for extract mask using gamma
+main.py # for searching gamma  
+extract_mask_mixed.py # for extract mask using gamma  
 
 ## 4. evaluate ppl
 ppl.py # for evaluate ppl results

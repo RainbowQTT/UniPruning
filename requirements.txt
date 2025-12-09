@@ -1,0 +1,131 @@
+# ========================================
+# UniPruning Requirements
+# ========================================
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+# For development:
+#   pip install -r requirements-dev.txt
+#
+
+# ========================================
+# Core Dependencies
+# ========================================
+
+# PyTorch and related
+torch>=2.1.2
+torchvision>=0.16.0
+torchaudio>=2.1.0
+
+# Transformers ecosystem
+transformers==4.44.2
+accelerate==0.34.2
+sentencepiece==0.2.0
+protobuf==5.26.1
+tokenizers>=0.19.0
+
+# Training and optimization
+trl==0.11.1
+peft>=0.7.0
+bitsandbytes>=0.41.0
+
+# ========================================
+# Numerical and Scientific Computing
+# ========================================
+
+numpy==1.26.4
+scipy>=1.11.0
+packaging==23.2
+
+# ========================================
+# Evaluation and Benchmarking
+# ========================================
+
+# LM Evaluation Harness
+lm-eval>=0.4.0
+datasets>=2.14.0
+evaluate>=0.4.0
+
+# ========================================
+# Utilities
+# ========================================
+
+# Progress bars and logging
+tqdm>=4.66.0
+wandb>=0.15.0  # Optional: for experiment tracking
+tensorboard>=2.14.0  # Optional: for tensorboard logging
+
+# Configuration and argument parsing
+pyyaml>=6.0
+omegaconf>=2.3.0
+
+# ========================================
+# Optional: For specific hardware
+# ========================================
+
+# For Ascend NPU (uncomment if needed)
+# torch-npu>=2.1.0
+
+# For Apple Silicon (MPS backend included in PyTorch)
+# Already supported in torch>=2.1.0
+
+# ========================================
+# Development Dependencies
+# ========================================
+# Uncomment for development work
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
+# isort>=5.12.0
+# mypy>=1.5.0
+# pre-commit>=3.4.0
+
+# ========================================
+# Version Compatibility Notes
+# ========================================
+#
+# Python: 3.10+
+# CUDA: 11.8+ (for GPU support)
+# CUDNN: 8.0+
+#
+# Tested Configurations:
+# - Python 3.10 + PyTorch 2.1.2 + CUDA 11.8
+# - Python 3.10 + PyTorch 2.1.2 + CUDA 12.1
+# - Python 3.10 + PyTorch 2.1.2 + Ascend NPU
+#
+# For other configurations, please refer to:
+# https://pytorch.org/get-started/locally/
+#
+# ========================================
+# Installation Tips
+# ========================================
+#
+# 1. Create conda environment:
+#    conda create -n Uniprune python=3.10
+#    conda activate Uniprune
+#
+# 2. Install PyTorch (GPU version):
+#    pip install torch==2.1.2 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+#
+# 3. Install remaining dependencies:
+#    pip install -r requirements.txt
+#
+# 4. Verify installation:
+#    python -c "import torch; print(torch.__version__)"
+#    python -c "import transformers; print(transformers.__version__)"
+#
+# ========================================
+# Known Issues and Workarounds
+# ========================================
+#
+# Issue 1: transformers version conflict
+# Solution: Use transformers==4.44.2 as specified
+#
+# Issue 2: CUDA out of memory
+# Solution: Reduce batch size or use gradient checkpointing
+#
+# Issue 3: lm-eval installation
+# Solution: pip install lm-eval[api]
+#
+# ========================================

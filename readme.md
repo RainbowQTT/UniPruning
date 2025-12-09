@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-ICLR%202026-red)](https://openreview.net)
 [![License](https://img.shields.io/badge/License-openPangu-blue.svg)](./LICENSE)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 
@@ -145,11 +144,11 @@ UniPruning/
 ## Citation
 
 ```bibtex
-@inproceedings{unipruning2026,
+@article{unipruning2025,
   title={UniPruning: Unifying Local Metric and Global Feedback for Scalable Sparse LLMs},
   author={Anonymous},
-  booktitle={International Conference on Learning Representations (ICLR)},
-  year={2026}
+  year={2025},
+  note={Technical Report}
 }
 ```
 

@@ -1,235 +1,34 @@
-openPangu Model License Agreement Version 1.0
+OPENPANGU MODEL LICENSE AGREEMENT VERSION 1.0
 
-Copyright (c) 2025 UniPruning Authors
-Copyright (c) 2023 Pengcheng Laboratory (for openPangu models)
+This OPENPANGU MODEL LICENSE AGREEMENT VERSION 1.0 (the "Agreement") is a legal agreement between You and Huawei Technologies Co., Ltd. ("Huawei", "We" or "Us"), and it governs Your reproducing, use, modification, and distribution of openPangu as made available by Huawei under this Agreement. 
 
-==============================================================================
-RECITALS
-==============================================================================
+By using, reproducing, modifying, distributing, performing or displaying any portion or element of openPangu, or otherwise accepting the terms of this Agreement, You agree to be bound by this Agreement.
 
-This License Agreement ("Agreement") governs the use of the UniPruning software
-and any models derived from or using openPangu pretrained models. By using this
-software or any associated model weights, you agree to be bound by the terms
-of this Agreement.
+1.	Definitions. 
+1.1.	“openPangu” or “Model” means openPangu large language models and software, including trained model weights, parameters (including optimizer states), accompanying source code and scripts released under this Agreement. 
+1.2.	“Derivative Model” means all (1) modifications to the Model, (2) works based on the Model, and (3) any other derivative works of the Model. For clarity, information or content results from operating or otherwise using the Model is not a Derivative Model. 
+1.3.	“You” or “Your” means an individual or Legal Entity exercising permissions granted by this Agreement and/or using the Model for any purpose.
+1.4.	“Third Party” or “Third Parties” means individuals or legal entities that are not under common control with Us or You.
 
-==============================================================================
-1. DEFINITIONS
-==============================================================================
+2.	License Grant. Subject to Your full compliance with the terms and conditions of this Agreement, We hereby grant to You a perpetual, worldwide, non-exclusive, non-transferable, no-charge, royalty-free license (except as stated in Section 3) to use, reproduce, modify, and distribute the Model. 
 
-1.1 "Software" refers to the UniPruning source code, algorithms, and related
-    materials made available under this license.
+3.	Conditions for License Grant. You represent and warrant that You will not, access, download, install, run, deploy, integrate, modify, or otherwise use the Model, directly or indirectly, within the European Union.
 
-1.2 "openPangu Models" refers to the pretrained large language models developed
-    by Pengcheng Laboratory and made available through the openPangu platform.
 
-1.3 "Derivative Models" refers to any models created by pruning, fine-tuning,
-    or otherwise modifying openPangu Models using the Software.
+4.	Redistribution. 
+4.1.	If You distribute the Model or Derivative Model, You shall retain in Your distribution (1) a copy of this agreement, and (2) all copyright notices and other notices of origin included in the Model that are applicable to Your distribution.
+4.2.	Further, if You distribute or make available to Third Parties a product or service (including another AI model) based on the Model, You are required to (1) display the acknowledgement “Powered by openPangu” and (2) include a trademark notice “openPangu is a trademark of Huawei Technologies Co., Ltd.” on related webpages, user manuals, product documentations or other advertising materials mentioning features of the Model.
+4.3.	You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for Derivative Model made by You as a whole, provided Your use, reproduction, and distribution of the Model otherwise complies with the terms and conditions of this Agreement.
 
-1.4 "Commercial Use" means use of the Software or Derivative Models for any
-    revenue-generating purpose or in a commercial product or service.
+5.	Ownership. We do not claim ownership to any information or content generated using the Model or Derivative Model that are made by You. You are solely responsible for evaluating the accuracy and appropriateness of such information or content for Your use case.
 
-==============================================================================
-2. GRANT OF LICENSE
-==============================================================================
+6.	Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of Huawei, except as required for complying with Section 4.2.
 
-2.1 Academic and Research Use
-    Subject to the terms of this Agreement, you are granted a non-exclusive,
-    worldwide, royalty-free license to:
+7.	Indemnity. You will indemnify and hold harmless Huawei from and against any claim by any third party arising out of or related to Your use or distribution of the Model or Derivative Model made by You (e.g. a violation against Section 3). For avoidance of doubt, “third party” in this clause include supervisory authorities.
 
-    a) Use, reproduce, and modify the Software for academic research purposes
-    b) Distribute the Software for non-commercial academic purposes
-    c) Create and use Derivative Models for academic research
-    d) Publish research results and papers using the Software
+8.	THE MODEL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NONINFRINGEMENT, ACCURACY, OR THE ABSENCE OF LATENT OR OTHER DEFECTS OR ERRORS, WHETHER OR NOT DISCOVERABLE, ALL TO THE GREATEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW.
 
-2.2 Commercial Use
-    Commercial use of the Software and Derivative Models is permitted subject to:
+9.	IN NO EVENT SHALL WE BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING, BUT NOT LIMITED TO ANY DIRECT, OR INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OR INABILITY TO USE THE MODEL, IN WHOLE OR IN PART, NO MATTER HOW IT’S CAUSED OR THE LEGAL THEORY IT IS BASED ON, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-    a) Compliance with openPangu's commercial use terms for the base models
-    b) Proper attribution to both UniPruning and openPangu projects
-    c) Retention of this license notice in all distributions
-    d) For commercial deployment of models using openPangu weights, separate
-       approval from Pengcheng Laboratory may be required
 
-==============================================================================
-3. OPENPANGU COMPLIANCE
-==============================================================================
-
-3.1 Attribution Requirements
-    Any use of Derivative Models must include clear attribution to:
-
-    a) The UniPruning project and its authors
-    b) The openPangu project and Pengcheng Laboratory
-    c) All original model creators (e.g., Meta AI for LLaMA, Alibaba for Qwen)
-
-3.2 License Inheritance
-    Derivative Models created using openPangu weights inherit the obligations
-    of the openPangu Model License, including but not limited to:
-
-    a) Restrictions on harmful use
-    b) Data privacy and security requirements
-    c) Export control compliance
-    d) Attribution requirements
-
-3.3 Model Redistribution
-    If you redistribute Derivative Models:
-
-    a) You must include this LICENSE file
-    b) You must clearly document the base model used (e.g., openPangu-7B-V1.1)
-    c) You must include instructions for obtaining the original base model
-    d) You must not misrepresent the origin or capabilities of the models
-
-==============================================================================
-4. RESTRICTIONS
-==============================================================================
-
-4.1 Prohibited Uses
-    You may NOT use the Software or Derivative Models for:
-
-    a) Any illegal activities or purposes
-    b) Generating harmful, abusive, or discriminatory content
-    c) Surveillance or monitoring without proper authorization
-    d) Military or weapons development without proper authorization
-    e) Violations of privacy, data protection, or export control laws
-    f) Impersonation or generation of misleading information
-
-4.2 Technical Restrictions
-
-    a) You may not remove or obscure any copyright, patent, trademark, or
-       attribution notices from the Software
-    b) You may not use the name "openPangu", "Pengcheng Laboratory", or
-       "UniPruning" to endorse products without prior written permission
-    c) You must not claim that pruned models are official openPangu releases
-
-==============================================================================
-5. OWNERSHIP AND INTELLECTUAL PROPERTY
-==============================================================================
-
-5.1 Software Ownership
-    The UniPruning software is owned by its authors. The openPangu models
-    are owned by Pengcheng Laboratory. This license does not transfer
-    ownership of any intellectual property.
-
-5.2 Contributions
-    Contributions to the UniPruning project are welcome and will be licensed
-    under the same terms as this Agreement.
-
-5.3 Patents
-    This license does not grant any patent rights. If you have or obtain
-    patents related to this technology, you grant users of the Software a
-    royalty-free license under such patents to use the Software.
-
-==============================================================================
-6. DISCLAIMER OF WARRANTY
-==============================================================================
-
-THE SOFTWARE AND ANY DERIVATIVE MODELS ARE PROVIDED "AS IS" WITHOUT WARRANTY
-OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-
-IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, OR PENGCHENG LABORATORY BE
-LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE
-SOFTWARE OR DERIVATIVE MODELS.
-
-==============================================================================
-7. LIMITATION OF LIABILITY
-==============================================================================
-
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO PROCUREMENT
-OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
-
-==============================================================================
-8. COMPLIANCE AND EXPORT CONTROL
-==============================================================================
-
-8.1 You are responsible for complying with all applicable laws and regulations,
-    including but not limited to:
-
-    a) Export control laws (ITAR, EAR, etc.)
-    b) Data protection regulations (GDPR, CCPA, etc.)
-    c) Intellectual property laws
-    d) Local regulations in your jurisdiction
-
-8.2 The Software and Derivative Models may be subject to export restrictions.
-    You agree not to export or re-export these materials in violation of
-    applicable laws.
-
-==============================================================================
-9. UPDATES AND MODIFICATIONS
-==============================================================================
-
-9.1 The authors reserve the right to update this license. Continued use of
-    updated versions of the Software constitutes acceptance of the new terms.
-
-9.2 You are encouraged to check for license updates periodically.
-
-==============================================================================
-10. TERMINATION
-==============================================================================
-
-10.1 This license automatically terminates if you fail to comply with any term.
-
-10.2 Upon termination, you must cease all use of the Software and destroy all
-     copies of Derivative Models in your possession.
-
-10.3 Sections 5, 6, 7, 8, and 11 survive termination.
-
-==============================================================================
-11. GENERAL PROVISIONS
-==============================================================================
-
-11.1 Entire Agreement
-     This Agreement constitutes the entire agreement between you and the
-     licensors regarding the Software.
-
-11.2 Severability
-     If any provision is found unenforceable, the remaining provisions
-     continue in full force and effect.
-
-11.3 Governing Law
-     This Agreement is governed by the laws of the jurisdiction where the
-     authors are located, without regard to conflict of law principles.
-
-11.4 Attribution
-     Any publication using this software should cite both:
-
-     - The UniPruning paper (see CITATION.bib)
-     - The openPangu project and relevant base models
-
-==============================================================================
-12. CONTACT INFORMATION
-==============================================================================
-
-For questions about this license:
-- UniPruning: [Repository URL]
-- openPangu: https://openi.pcl.ac.cn/OpenPangu
-- Pengcheng Laboratory: https://www.pcl.ac.cn/
-
-For permission requests beyond the scope of this license, please contact
-the respective rights holders.
-
-==============================================================================
-ACKNOWLEDGMENTS
-==============================================================================
-
-This software builds upon:
-- openPangu models by Pengcheng Laboratory
-- LLaMA models by Meta AI
-- Qwen models by Alibaba Cloud
-- DeepSeek models by DeepSeek
-- Various open-source libraries and tools
-
-We gratefully acknowledge their contributions to the research community.
-
-==============================================================================
-END OF LICENSE
-==============================================================================
-
-By using this software, you acknowledge that you have read, understood, and
-agree to be bound by the terms of this openPangu Model License Agreement
-Version 1.0.
+END OF THE TERMS AND CONDITIONS

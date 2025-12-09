@@ -64,26 +64,6 @@ bash train_24_final.sh
 bash final_unstructured.sh
 ```
 
-### Python API
-```python
-from searching.main import prune_model
-from searching.extract_mask_mixed import extract_mask
-
-# Search for optimal saliency scores
-model = prune_model(
-    model_name="meta-llama/Llama-2-13b-hf",
-    sparsity=0.6,
-    calibration_samples=128
-)
-
-# Extract mask
-mask = extract_mask(model, sparsity=0.6, pattern="unstructured")
-
-# Evaluate
-from searching.ppl import evaluate_perplexity
-ppl = evaluate_perplexity(model, mask)
-```
-
 ---
 
 ## Results
@@ -119,36 +99,19 @@ ppl = evaluate_perplexity(model, mask)
 | | **UniPruning (2:4)** | **106.21** | **0.4166** |
 | | **UniPruning (50%)** | **49.73** | **0.5079** |
 
-**Performance:** 1.27× end-to-end inference speedup with 2:4 sparsity on H200 GPU
-
----
-
-## Repository Structure
-
-```
-UniPruning/
-├── searching/
-│   ├── main.py                  # Main pruning script
-│   ├── extract_mask_mixed.py    # Mask extraction
-│   ├── ppl.py                   # Perplexity evaluation
-│   ├── TrainerSFT_SPP.py       # Custom trainer
-│   ├── adamw_spp_prune.py      # Optimizer
-│   └── prox_op.py              # Proximal operators
-├── train_24_final.sh           # 2:4 pruning script
-├── final_unstructured.sh       # Unstructured pruning script
-└── requirements.txt            # Dependencies
-```
-
 ---
 
 ## Citation
 
 ```bibtex
-@article{unipruning2025,
-  title={UniPruning: Unifying Local Metric and Global Feedback for Scalable Sparse LLMs},
-  author={Anonymous},
-  year={2025},
-  note={Technical Report}
+@misc{ding2025unipruningunifyinglocalmetric,
+      title={UniPruning: Unifying Local Metric and Global Feedback for Scalable Sparse LLMs}, 
+      author={Yizhuo Ding and Wanying Qu and Jiawei Geng and Wenqi Shao and Yanwei Fu},
+      year={2025},
+      eprint={2510.03291},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.03291}, 
 }
 ```
 
@@ -161,8 +124,6 @@ If you use openPangu models, please also cite:
   url={https://openi.pcl.ac.cn/OpenPangu}
 }
 ```
-
-See [CITATION.bib](./CITATION.bib) for complete references.
 
 ---
 

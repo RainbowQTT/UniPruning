@@ -23,7 +23,7 @@ UniPruning achieves state-of-the-art LLM pruning through:
 
 ## 🏛️ openPangu Declaration
 
-**This project uses [openPangu](https://openi.pcl.ac.cn/OpenPangu) models from Pengcheng Laboratory.**
+**This project uses [openPangu] models.**
 
 This repository complies with the **openPangu Model License Agreement Version 1.0**:
 - All usage follows openPangu's open-source license terms
